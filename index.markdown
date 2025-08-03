@@ -2,11 +2,18 @@
 layout: default
 title: Welcome
 ---
+<link rel="stylesheet" href="/assets/css/custom.css">
 
-# 👋 Welcome to Dataverse Ghana
 
-We build digital tools that empower businesses and communities in Ghana.
+# Welcome to DataVerse Ghana
 
-👉 [Read the Blog](/blog/)
+**DataVerse Ghana** is your local partner for intelligent data systems and automation.  
+We help **students, researchers, NGOs, SMEs, government teams, and developers** unlock the full potential of their data.
 
-Follow along for stories, tutorials, and local digital insights.
+
+
+
+
+
+> _We’re building the future of data work in Ghana — one smart system at a time._
+

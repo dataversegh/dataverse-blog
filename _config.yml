@@ -1,33 +1,61 @@
+# 🏷 Site Identity
 title: The Dataverse Blog
-email: info@dataversegh.com
-description: >- 
-  Insights, updates, and trending stories in the Data Universe
-baseurl: "" 
-url: "https://blog.dataversegh.com" 
+email: derrick@dataversegh.com
+description: >-
+  Insights, updates, and trending stories in the Data Universe — featuring data automation, research support, and tech for impact in Ghana.
+url: "https://blog.dataversegh.com"
+baseurl: ""  # No subdirectory
 author: Derrick from DataVerse
-twitter_username: dataverse_gh
 
-# Build settings
+# 🔗 Social & SEO
+twitter_username: dataverse_gh
+linkedin_username: dataverse-gh
+github_username: dataversegh
+
+# 🎨 Theme & Appearance
 theme: minima
+
+# 🧩 Plugins
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# 🎨 Custom Styling
+include:
+  - assets/css/custom.css
+
+# 📁 Assets like logo, favicon, etc.
+head_scripts:
+  - <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+
+# 🧪 Markdown & Content
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# 🧠 Posts & Pages
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Derrick from DataVerse
+      categories: updates
+
+# 📅 Optional Build Behavior
+future: true
+show_drafts: false
+
+# 🧪 Local Development Extras
+lsi: false
+safe: true
+incremental: false
+
+# 📂 Permalink Style (prettier URLs)
+permalink: /:categories/:title/
+
+# 🧭 Pagination (needs jekyll-paginate if you want to enable)
+# paginate: 5
+# paginate_path: "/blog/page:num"
