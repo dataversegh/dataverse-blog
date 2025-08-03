@@ -1,6 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Welcome
 ---
+
+# 👋 Welcome to Dataverse Ghana
+
+We build digital tools that empower businesses and communities in Ghana.
+
+👉 [Read the Blog](/blog/)
+
+Follow along for stories, tutorials, and local digital insights.
